@@ -7,4 +7,4 @@ After it has installed and your computer has restarted, manim will be ready to u
 
 ## How to install
 Open powershell as adminstrator and run
-`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('raw.githubusercontent.com/jacob-horton/manim-installer/master/install.ps1'))`
+`Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/jacob-horton/manim-installer/master/install.ps1'))`
