@@ -12,5 +12,6 @@ $result = $host.ui.PromptForChoice($title, $message, $options, 1)
 switch ($result) {
   0{
     restart-computer
+  }1{
   }
 }
