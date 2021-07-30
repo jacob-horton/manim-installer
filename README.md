@@ -7,9 +7,9 @@ This script installs chocolatey (a program to manage installing software) and us
 After it has installed and your computer has restarted, manim will be ready to use!
 
 ## How to install
-**NOTE:** For this script to work properly, internet explorer must have been run at least once, so ensure this has been done before running it.
+**NOTE:** For this script to work properly, internet explorer must have been run at least once, so ensure this has been done before opening PowerShell.
 
-Open powershell as adminstrator and run:
+Open PowerShell as adminstrator and run:
 ```powershell
-Set-ExecutionPolicy Bypass -Scope Process -Force; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/jacob-horton/manim-installer/master/install.ps1'))
+Set-ExecutionPolicy Bypass -Scope Process -Force; iex (iwr 'https://raw.githubusercontent.com/jacob-horton/manim-installer/main/install.ps1')
 ```
